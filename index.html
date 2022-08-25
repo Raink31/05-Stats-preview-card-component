@@ -9,21 +9,26 @@
 </head>
 <body>
   <div id="main">
-    <picture>
-      <img id="img_mobile" src="images/image-header-mobile.jpg" alt="image_mobile">
-      <img id="img_desktop" src="images/image-header-desktop.jpg" alt="image_desktop">
-    </picture>
-    <h1>
-      Get <strong>insights</strong> that<br />
-      help your business<br />
-      grow.
-    </h1>
-    <p>
-      Discover the benefits of data<br />
-      analytics and make better decisions<br />
-      regarding revenue, customer<br />
-      experience, and overall efficiency.
-    </p>
+    <div id="img_mobile">
+      <img src="images/image-header-mobile.jpg" alt="image_mobile">
+    </div>
+    <div id="img_desktop">
+      <img src="images/image-header-desktop.jpg" alt="image_desktop">
+    </div>
+    <div id="all_text">
+      <div id="main_text">
+      <h1>
+        Get <strong>insights</strong> that<br class="mobile_br"/>
+        help<br class="desktop_br"/> your business<br class="mobile_br"/>
+        grow.
+      </h1>
+      <p>
+        Discover the benefits of data<br class="mobile_br"/>
+        analytics and make<br class="desktop_br"/> better decisions<br class="mobile_br"/>
+        regarding revenue, customer<br class="mobile_br"/><br class="desktop_br"/>
+        experience, and overall efficiency.
+      </p>
+    </div>
     <div id="chiffres">
       <div id="companies">
         <h2>
@@ -50,11 +55,11 @@
         </p>
       </div>
     </div>
+    </div>
   </div>
-
-  <!-- <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    Coded by <a href="#">Yohan Baes</a>.
+  </div>
 </body>
 </html>
