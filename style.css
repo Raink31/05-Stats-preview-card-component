@@ -76,7 +76,7 @@ span{
     padding-bottom: 2%;
 }
 
-.stat-box{
+.stats-box{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,4 +93,64 @@ span{
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.6);
     font-size: 0.9em;
+}       
+
+@media screen and (min-width: 1024px){
+    body{
+        text-align: start;
+    }
+
+    .wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img-box{
+        order: 1;
+    }
+
+    .img-box img{
+        content: url("assets/images/image-header-desktop.jpg");
+    }
+
+    .container{
+        max-width: 1440px;
+    }
+
+    .stats-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 90%;
+    }
+
+    .text-component{
+        padding: 12% 12%;
+    }
+
+    .title{
+        font-size: 2.9em;
+    }
+
+    .subtitle{
+        width: 80%;
+        font-size: 1.2em;
+        line-height: 35px;
+        padding-bottom: 15%;
+    }
+
+    .number{
+        font-size: 2.1em;
+        padding-bottom: 5%;
+    }
+
+    .stats p{
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .stats-box{
+        width: 80%;
+    }
 }
