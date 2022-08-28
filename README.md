@@ -19,7 +19,7 @@ Your challenge is to build out this card component and get it looking as close t
 
 ## Links
 
-- Solution URL: --
+- Solution URL: https://www.frontendmentor.io/solutions/stats-preview-card-challenge-responsive-solution-html-and-css-rJd7V2kKrh
 - Live Site URL: https://raink31.github.io/05-Stats-preview-card-component/
 
 
