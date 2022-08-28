@@ -10,6 +10,7 @@ body{
     font-size: 15px;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: hsl(233, 47%, 7%);
@@ -76,24 +77,43 @@ span{
     padding-bottom: 2%;
 }
 
-.stats-box{
+.stats-box ul{
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.number{
+.stats strong{
     font-weight: 700;
-    margin-top: 12%;
     color: white;
+    font-size: 1.5em;
 }
 
-.stats p{
-    margin-top: 2%;
+.stats span{
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.6);
     font-size: 0.9em;
 }       
+
+.stats p{
+    margin-bottom: 1%;
+}
+
+.stats-box li{
+    padding-top: 10%;
+}
+
+.attribution{
+    color: white;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-size: 0.55em;
+}
+
+.attribution a{
+    color: #a15ed0;
+}
 
 @media screen and (min-width: 1024px){
     body{
@@ -116,11 +136,11 @@ span{
         max-width: 1440px;
     }
 
-    .stats-box{
+    .stats-box ul{
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 90%;
+        width: 88%;
     }
 
     .text-component{
@@ -138,19 +158,23 @@ span{
         padding-bottom: 15%;
     }
 
-    .number{
+    .stats strong{
         font-size: 2.1em;
-        padding-bottom: 5%;
     }
 
-    .stats p{
+    .stats span{
         font-size: 1em;
         letter-spacing: 2px;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+
+    .attribution{
+        font-size: 1em;
     }
 }
 
 @media screen and (min-width: 1440px){
     .stats-box{
-        width: 80%;
+        width: 90%;
     }
 }
