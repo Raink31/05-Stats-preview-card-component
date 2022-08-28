@@ -1,3 +1,36 @@
-# Frontend Mentor - Product preview card component
+# Frontend Mentor - Stats preview card component
 
-In construction
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
+
+
+## The challenge
+
+Your challenge is to build out this card component and get it looking as close to the design as possible.
+
+
+## Screenshot
+
+### Mobile Screenshot
+![mobile screenshot](./assets/images/mobile.png)
+
+### Desktop Screenshot
+![desktop screenshot](./assets/images/desktop.png)
+
+
+## Links
+
+- Solution URL: --
+- Live Site URL: --
+
+
+## Built with
+
+- HTML5
+- CSS
+- Flexbox
+- CSS Grid
+
+
+## Author
+
+- Frontend Mentor - https://www.frontendmentor.io/profile/Raink31
